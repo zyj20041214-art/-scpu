@@ -325,7 +325,7 @@ def load_data():
 
         # Save for reuse
         df.to_csv(file_path, index=False, encoding="utf-8-sig")
-        st.success(f"✅ 合成数据集已生成并保存到 {file_path}")
+        st.success(f"✅ {file_path}")
 
     # ======== Model Card Text ========
     try:
